@@ -1,0 +1,59 @@
+li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: rgb(185, 192, 241);
+    padding: 10px;
+    border-radius: 10px;
+    margin:10px 0;
+
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
+ul{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.331);
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+.trigger{
+    text-align: center;
+    margin: 0 8rem;
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+}
+.delete{
+
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+    background-color:crimson;
+}
+.delete:hover{
+    background-color: rgb(171, 3, 3);
+}
+.hidden{
+    display: none;
+}
+.completed{
+    background-color: rgba(117, 227, 117, 0.687);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.402);
+}
+.incomplete{
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.402);
+    
+}
+.success{
+    background-color: green;
+    color: white;
+}
